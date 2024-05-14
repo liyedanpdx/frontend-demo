@@ -7,6 +7,7 @@
     <title>My First Web Page</title>
     <!-- Embed CSS -->
     <style>
+        /* style header area */
         header {
             background: url("images/central_park.jpg") 0px -200px no-repeat;/* shortcut */
             /* background-image: url("images/central_park.jpg"); */
@@ -14,6 +15,44 @@
             /* background-position: 0px -200px; */
             /* background-repeat: no-repeat; */
             height: 400px;
+            padding-top: 100px;
+            padding-left: 100px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif
+        }
+        /* style navigation */
+        li {
+            list-style-type: none;
+            display: inline;
+            padding: 0px 20px;
+            /* padding-right: 10px;
+            padding-left: 10px;
+            padding-bottom:5px;*/
+        }
+        li a{
+            text-decoration:none;
+        }
+        li a:link {
+            text-decoration:none;
+            color: #000;
+        }
+        li a:visited {
+            text-decoration:none;
+            color: #818db3;
+        }
+        li a:hover {
+            text-decoration:underline;
+            color: #333;
+        }
+        li a:active {
+            text-decoration:none;
+            color: #753a30;
+        }
+        nav {
+            background-color: rgb(255,245,238);
+            height: 50px;
+            text-align: center;
+            padding-top: 2px;
         }
     </style>
 </head>
@@ -22,7 +61,10 @@
     <!-- Container -->
     <div id="container">
         <!-- Header -->
-        <header>My Website Brand</header>
+        <header style="font-size:60px; color: #fff">
+            My Website Brand
+            Demo
+        </header>
         <!-- Navigation -->
         <nav>
             <ul>
