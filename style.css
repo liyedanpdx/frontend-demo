@@ -103,3 +103,6 @@ footer {
 input:focus {
     background-color: #c8ebf7;
 }
+#album #photo img{
+    width: 400px;
+}
